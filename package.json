@@ -1,0 +1,33 @@
+{
+   "name": "neuradriz",
+   "version": "0.1.0",
+   "description": "NeuralNetwork with pure Javascript",
+   "main": "src/index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/harshtiwari47/neuradriz.git"
+   },
+   "keywords": [
+      "Neural",
+      "Network",
+      "AI",
+      "Deep",
+      "Learning",
+      "Javascript",
+      "Neural",
+      "Network",
+      "Javascript",
+      "npm",
+      "neuron",
+      "brain"
+   ],
+   "author": "Harsh Tiwari",
+   "license": "MIT",
+   "bugs": {
+      "url": "https://github.com/harshtiwari47/neuradriz/issues"
+   },
+   "homepage": "https://github.com/harshtiwari47/neuradriz#readme"
+}
