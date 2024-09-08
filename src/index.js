@@ -135,7 +135,6 @@ class NeuralNetwork {
 
    train(trainingData, epochs) {
       for (let epoch = 0; epoch < epochs; epoch++) {
-         document.querySelector('p').innerText = epoch;
          for (let data of trainingData) {
             this.backpropagate(data.input, data.target);
          }
