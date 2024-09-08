@@ -143,4 +143,4 @@ class NeuralNetwork {
    }
 }
 
-export default NeuralNetwork
+module.exports = NeuralNetwork
