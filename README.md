@@ -127,3 +127,5 @@ Feedforward: Computes the output by multiplying inputs by the weights, adding bi
 Backpropagation: Calculates errors and updates weights and biases based on the gradients and the learning rate.
 
 
+[Contribution Guidelines](https://github.com/harshtiwari47/neuradriz/blob/main/contribution.md)
+
