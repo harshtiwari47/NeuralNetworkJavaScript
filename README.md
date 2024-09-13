@@ -71,7 +71,7 @@ Train the neural network using the train method. Specify the training data and t
 
 ```
 nn.train(trainingData, 1000);
-```
+
 
 In this example, the network is trained over 1000 epochs.
 
@@ -84,7 +84,7 @@ let input = [5.8, 2.7, 4.1, 1.0];
 let result = nn.feedforward(input);
 
 console.log(result);  // Output will be the network's prediction
-```
+
 
 ## 6. Example
 
