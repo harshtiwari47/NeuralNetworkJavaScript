@@ -36,6 +36,7 @@ We are open to new ideas! If you have a suggestion or would like to see a new fe
 
 3. Create a New Branch: Use a descriptive branch name related to the changes you're making:
 
+  ```bash
 git checkout -b fix-bug-xyz
 
 
@@ -47,6 +48,7 @@ git checkout -b fix-bug-xyz
 
 6. Commit Your Changes: Write a meaningful commit message:
 
+  ```bash
 git commit -m "Fix: Bug in weight initialization"
 
 
@@ -59,7 +61,7 @@ git push origin fix-bug-xyz
 
 
 
-PR Guidelines:
+## PR Guidelines:
 
 Ensure your code follows the existing code style.
 
@@ -70,7 +72,7 @@ Include tests for any new functionality or bug fixes.
 Ensure your PR has a meaningful title and description.
 
 
-4. Improving Documentation
+### 4. Improving Documentation
 
 If you notice any typos or areas where the documentation could be clearer, feel free to contribute. Documentation updates are just as important as code contributions.
 
@@ -79,7 +81,7 @@ To contribute to documentation:
 Follow the same process as submitting code, but make changes to relevant .md files (e.g., README.md or CONTRIBUTION.md).
 
 
-5. Code of Conduct
+### 5. Code of Conduct
 
 We expect all contributors to follow our Code of Conduct. Please be respectful, considerate, and professional when interacting with others in the project.
 
@@ -87,17 +89,20 @@ Setting Up Development Environment
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/neuradriz.git
+  ```bash
+git clone https://github.com/harshtiwari47/neuradriz.git
 cd neuradriz
 
 
 2. Install any dependencies:
 
+  ```bash
 npm install
 
 
 3. Run tests:
 
+  ```bash
 npm test
 
 
