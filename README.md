@@ -25,17 +25,16 @@ Here is how you can use the Neuradriz neural network module:
 
 Import the neural network class from the package.
 
-```
+```javascript
 const NeuralNetwork = require('neuradriz');
-```
+
 
 ## 2. Initialize the Neural Network
 
 Create an instance of the NeuralNetwork by specifying the number of input nodes, hidden nodes, output nodes, and the learning rate.
 
-```
+```javascript
 let nn = new NeuralNetwork(4, 16, 1, 0.125);
-```
 
 4: Number of input nodes
 
@@ -50,7 +49,7 @@ let nn = new NeuralNetwork(4, 16, 1, 0.125);
 
 The training data consists of input values and corresponding target values. Below is an example of the data format:
 
-```
+```javascript
 const trainingData = [
    {
       input: [5.1, 3.5, 1.4, 0.2],
@@ -61,7 +60,6 @@ const trainingData = [
       target: [0.666]
    }
 ];
-```
 
 Each input is an array of feature values, and each target is an array containing the target output for those input features.
 
@@ -69,7 +67,7 @@ Each input is an array of feature values, and each target is an array containing
 
 Train the neural network using the train method. Specify the training data and the number of epochs for which the network will be trained.
 
-```
+```javascript
 nn.train(trainingData, 1000);
 
 
@@ -79,7 +77,7 @@ In this example, the network is trained over 1000 epochs.
 
 After training, you can use the feedforward method to make predictions.
 
-```
+```javascript
 let input = [5.8, 2.7, 4.1, 1.0];
 let result = nn.feedforward(input);
 
@@ -90,7 +88,7 @@ console.log(result);  // Output will be the network's prediction
 
 Here’s a full example putting everything together:
 
-```
+```javascript
 const NeuralNetwork = require('neuradriz');
 
 // Initialize the neural network
@@ -111,9 +109,9 @@ let input = [5.8, 2.7, 4.1, 1.0];
 let result = nn.feedforward(input);
 
 console.log(result);  // Prediction based on the trained model
-```
 
-How It Works
+
+How It Works ?
 
 The module works by initializing weights and biases for both the input-to-hidden layer and hidden-to-output layer. It uses the sigmoid activation function for non-linearity and trains using backpropagation with gradient descent.
 
