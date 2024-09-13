@@ -16,6 +16,7 @@ You can install Neuradriz using npm.
 
 ```bash
 npm install neuradriz
+```
 
 Usage
 
@@ -27,6 +28,7 @@ Import the neural network class from the package.
 
 ```javascript
 const NeuralNetwork = require('neuradriz');
+```
 
 
 ## 2. Initialize the Neural Network
