@@ -37,6 +37,7 @@ Create an instance of the NeuralNetwork by specifying the number of input nodes,
 
 ```javascript
 let nn = new NeuralNetwork(4, 16, 1, 0.125);
+```
 
 4: Number of input nodes
 
@@ -62,6 +63,7 @@ const trainingData = [
       target: [0.666]
    }
 ];
+```
 
 Each input is an array of feature values, and each target is an array containing the target output for those input features.
 
@@ -71,6 +73,7 @@ Train the neural network using the train method. Specify the training data and t
 
 ```javascript
 nn.train(trainingData, 1000);
+```
 
 
 In this example, the network is trained over 1000 epochs.
@@ -84,6 +87,7 @@ let input = [5.8, 2.7, 4.1, 1.0];
 let result = nn.feedforward(input);
 
 console.log(result);  // Output will be the network's prediction
+```
 
 
 ## 6. Example
@@ -111,6 +115,7 @@ let input = [5.8, 2.7, 4.1, 1.0];
 let result = nn.feedforward(input);
 
 console.log(result);  // Prediction based on the trained model
+```
 
 
 How It Works ?
