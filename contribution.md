@@ -33,11 +33,13 @@ We are open to new ideas! If you have a suggestion or would like to see a new fe
 2. **Clone Your Fork**:
    ```bash
    git clone https://github.com/your-username/neuradriz.git
+```
 
 3. Create a New Branch: Use a descriptive branch name related to the changes you're making:
 
   ```bash
 git checkout -b fix-bug-xyz
+```
 
 
 4. Make Your Changes: Implement your fix or feature. Try to keep the changes small and focused.
@@ -50,11 +52,14 @@ git checkout -b fix-bug-xyz
 
   ```bash
 git commit -m "Fix: Bug in weight initialization"
+```
 
 
 7. Push to Your Fork:
 
+```bash
 git push origin fix-bug-xyz
+```
 
 
 8. Submit a Pull Request: Open a PR to the main repository, providing a clear explanation of the changes you've made. Include any relevant issues your PR closes (e.g., Closes #issue-number).
@@ -92,18 +97,21 @@ Setting Up Development Environment
   ```bash
 git clone https://github.com/harshtiwari47/neuradriz.git
 cd neuradriz
+```
 
 
 2. Install any dependencies:
 
   ```bash
 npm install
+```
 
 
 3. Run tests:
 
   ```bash
 npm test
+```
 
 
 
