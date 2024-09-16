@@ -982,7 +982,6 @@ class NeuralNetwork {
             biasHidden: this.biasHidden,
             biasOutput: this.biasOutput,
             activationOutput: this.activationOutput,
-            activation: this.activation
          };
 
          // Save to local file (in Node.js environment)
@@ -1008,8 +1007,6 @@ class NeuralNetwork {
          this.biasHidden = modelState.biasHidden;
          this.biasOutput = modelState.biasOutput;
          this.activationOutput = modelState.activationOutput;
-         this.activation = modelState.activation;
-
          console.log(`Model loaded from ${filename}`);
       }
    }
