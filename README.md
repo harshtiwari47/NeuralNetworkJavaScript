@@ -166,7 +166,7 @@ To make predictions after training, use the feedforward() function. This will pa
 ```javascript
 const result = nn.predict([1, 0]);
 console.log(`Prediction for [1, 0]: ${result}`);
-```javascript
+```
 
 ### 8. Saving and Loading the Model
 
