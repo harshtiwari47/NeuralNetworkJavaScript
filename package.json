@@ -42,7 +42,8 @@
       "MLAlgorithms",
       "NeuralNetworkWeights",
       "JavaScriptMachineLearning",
-      "NeuralNetworkModel"
+      "NeuralNetworkModel",
+      "nodepackagemanager"
    ],
    "author": "Harsh Tiwari",
    "license": "MIT",

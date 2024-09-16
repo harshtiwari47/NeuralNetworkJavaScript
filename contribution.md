@@ -33,7 +33,7 @@ We are open to new ideas! If you have a suggestion or would like to see a new fe
 2. **Clone Your Fork**:
 
    ```bash
-   git clone https://github.com/your-username/neuradriz.git
+   git clone https://github.com/harshtiwari47/neuradriz.git
 
 
 3. Create a New Branch: Use a descriptive branch name related to the changes you're making:
