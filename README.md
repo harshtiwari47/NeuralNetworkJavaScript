@@ -109,13 +109,21 @@ nn.setlearningRate(1.25);
 A callback function can track the progress during training. You can use it to log events like the start/end of training, epochs, and batches.
 
 ```javascript
-async function myCallback({ event, epoch, averageLoss, accuracy }) {
+async function myCallback( {
+   event, epoch, batch, averageLoss, accuracy
+}) {
    switch (event) {
       case 'trainStart':
          console.log('Training started.');
          break;
       case 'epochStart':
          console.log(`Epoch ${epoch + 1} started.`);
+         break;
+      case 'batchStart':
+         console.log(`Batch started.`);
+         break;
+      case 'batchEnd':
+         console.log(`Batch ended.`);
          break;
       case 'epochEnd':
          console.log(`Epoch ${epoch + 1} ended. Validation Loss: ${averageLoss}, Accuracy: ${accuracy}`);
@@ -125,6 +133,7 @@ async function myCallback({ event, epoch, averageLoss, accuracy }) {
          break;
       default:
          console.log('Unknown event.');
+         break;
    }
 }
 ```
