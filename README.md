@@ -148,6 +148,8 @@ nn.train(trainingData, {
    batchSize: 10,
    shuffle: true,
    earlyStopping: true,
+   decayLearningRate = false,
+   decayRate = 0.001,
    patience: 50,
    validationData: validationDataSet,
    lossType: "mse", // Options: "mse", "mae", "crossentropy"
