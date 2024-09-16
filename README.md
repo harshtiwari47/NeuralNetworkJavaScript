@@ -56,8 +56,7 @@ Define the input, hidden, and output layers. You must have at least one input la
 // Input Layer (2 nodes, Sigmoid activation)
 nn.initLayer({
    type: 'input',
-   nodes: 2,
-   activation: 'sigmoid'
+   nodes: 2
 });
 
 // Hidden Layer (1 node, ReLU activation)
